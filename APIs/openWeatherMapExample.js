@@ -17,12 +17,12 @@ export default class HelloWorld extends Component {
   constructor(props) {
     super(props);
 
-    weather = this.fetchWeather();
-
     this.state = { 
       weather: null,
       weatherText: "Loading..."
     };
+    weather = this.fetchWeather();
+
   }
 
   
