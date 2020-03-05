@@ -21,7 +21,7 @@ export default class HelloWorld extends Component {
       weather: null,
       weatherText: "Loading..."
     };
-    weather = this.fetchWeather();
+    this.fetchWeather();
 
   }
 
