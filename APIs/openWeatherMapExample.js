@@ -6,7 +6,12 @@ import {
   Text, View
 } from 'react-native';
 
-export const API_KEY = '1cf6c987ec0fdb7bc68a6c8428059280';
+/*
+Adapted from:
+https://blog.expo.io/building-a-minimalist-weather-app-with-react-native-and-expo-fe7066e02c09
+*/
+
+export const API_KEY = '***** YOUR OWN API *****';
 
 export default class HelloWorld extends Component {
   constructor(props) {
